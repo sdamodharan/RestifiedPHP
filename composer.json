@@ -1,0 +1,23 @@
+{
+  "name": "sdamodharan/restified-php",
+  "description": "REST Framework",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sriram Damodharan",
+      "email": "sdamodharan@thapovan-inc.com"
+    }
+  ],
+  "require": {
+    "react/http": "0.5.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "RestifiedPHP\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  }
+}
